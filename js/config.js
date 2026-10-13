@@ -1,3 +1,4 @@
+
 window.CONFIG = {
   name: "Даниил Мазуров",
   brand: "DM.",
@@ -21,12 +22,12 @@ window.CONFIG = {
       type: "email",
       label: "Email",
       value: "retroretriver@yandex.ru",
-      url: ""
+      url: "mailto:retroretriver@yandex.ru"
     },
     {
       type: "telegram",
       label: "Telegram",
-      value: "Reto444",
+      value: "@reto4444",
       url: "https://t.me/reto4444"
     }
   ],
@@ -82,15 +83,15 @@ window.CONFIG = {
       code: "https://github.com/Reto-444/taskflow"
     },
     {
-    title: "Mellow Coffee",
-    description:
-      "Стильный адаптивный сайт современной кофейни. " +
-      "Минималистичный дизайн, меню напитков, плавная навигация " +
-      "и интерактивные элементы для комфортного просмотра на любых устройствах.",
-    stack: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
-    demo: "https://reto-444.github.io/mellow-Coffe/",
-    code: "https://github.com/Reto-444/mellow-Coffe"
-  }  
+      title: "Mellow Coffee",
+      description:
+        "Современный одностраничный сайт кофейни с тёплой цветовой " +
+        "палитрой, стильным меню напитков, адаптивной вёрсткой " +
+        "и интерактивными элементами.",
+      stack: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
+      demo: "https://reto-444.github.io/mellow-Coffe/",
+      code: "https://github.com/Reto-444/mellow-Coffe"
+    }
   ],
 
   skills: {
