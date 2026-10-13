@@ -107,7 +107,7 @@ window.CONFIG = {
     {
       title: "CineScope",
       description:
-        "Кинематографичный каталог фильмов с атмосферным тёмным интерфейсом. Поиск фильмов, фильтрация по жанрам и годам, сортировка, подробные карточки и избранное с сохранением в браузере.",
+        "Кинематографичный каталог фильмов с атмосферным тёмным интерфейсом, поиском, фильтрацией по жанрам и годам, сортировкой и избранным списком с сохранением в браузере.",
       stack: [
         "HTML5",
         "CSS3",
@@ -117,6 +117,21 @@ window.CONFIG = {
       ],
       demo: "https://reto-444.github.io/Cinescope/",
       code: "https://github.com/Reto-444/Cinescope"
+    },
+
+    {
+      title: "Sole Society",
+      description:
+        "Концептуальный интернет-магазин кроссовок в стиле premium streetwear. Каталог товаров, поиск, фильтры, сортировка, карточки товаров, корзина и избранное.",
+      stack: [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "LocalStorage",
+        "Responsive Design"
+      ],
+      demo: "https://reto-444.github.io/Solesocety/",
+      code: "https://github.com/Reto-444/Solesocety"
     }
   ],
 
