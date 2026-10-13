@@ -80,7 +80,17 @@ window.CONFIG = {
       stack: ["HTML5", "CSS3", "JavaScript", "LocalStorage"],
       demo: "https://reto-444.github.io/taskflow/",
       code: "https://github.com/Reto-444/taskflow"
-    }
+    },
+    {
+    title: "Mellow Coffee",
+    description:
+      "Стильный адаптивный сайт современной кофейни. " +
+      "Минималистичный дизайн, меню напитков, плавная навигация " +
+      "и интерактивные элементы для комфортного просмотра на любых устройствах.",
+    stack: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
+    demo: "https://reto-444.github.io/mellow-Coffe/",
+    code: "https://github.com/Reto-444/mellow-Coffe"
+  }  
   ],
 
   skills: {
