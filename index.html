@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Даниил Мазуров — веб-разработчик</title>
+  <meta name="description" content="Портфолио начинающего веб-разработчика Даниила Мазурова: HTML5, CSS3, JavaScript, PHP, SQL, Figma. Учебные и личные проекты, навыки, процесс работы.">
+  <meta name="author" content="Даниил Мазуров">
+  <meta name="theme-color" content="#0A0A0B">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Даниил Мазуров — веб-разработчик">
+  <meta property="og:description" content="Портфолио начинающего веб-разработчика: вёрстка, интерфейсы, учебные и личные проекты.">
+
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+  <!-- ================= HEADER ================= -->
+  <header class="header" id="header">
+    <div class="header__inner container">
+      <a class="brand" href="#hero" aria-label="В начало">
+        <span class="brand__dot" aria-hidden="true"></span>
+        <span class="brand__text" data-cfg="brand">DM.</span>
+      </a>
+
+      <nav class="nav" id="primary-nav" aria-label="Основная навигация">
+        <ul class="nav__list">
+          <li><a href="#about">Обо мне</a></li>
+          <li><a href="#projects">Проекты</a></li>
+          <li><a href="#skills">Навыки</a></li>
+          <li><a href="#process">Процесс</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+
+        <a class="btn btn--ghost btn--sm nav__github" id="nav-github" target="_blank" rel="noopener noreferrer" hidden>
+          <svg class="btn__icon" viewBox="0 0 16 16" width="15" height="15" aria-hidden="true">
+            <path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.4 7.4 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/>
+          </svg>
+          <span>GitHub</span>
+        </a>
+      </nav>
+
+      <button class="burger" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Открыть меню">
+        <span class="burger__line" aria-hidden="true"></span>
+        <span class="burger__line" aria-hidden="true"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="hero">
+      <div class="container hero__grid">
+
+        <div class="hero__content">
+          <p class="eyebrow">
+            <span class="eyebrow__dot" aria-hidden="true"></span>
+            <span data-cfg="eyebrow">Начинающий специалист</span>
+          </p>
+
+          <h1 class="hero__title">
+            <span class="hero__line" data-cfg="name">Даниил Мазуров</span>
+            <span class="hero__line hero__line--outline" data-cfg="role">Веб-разработчик</span>
+          </h1>
+
+          <p class="hero__intro" data-cfg="intro"></p>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#projects">Смотреть проекты</a>
+            <a class="btn btn--ghost" id="hero-github" target="_blank" rel="noopener noreferrer" hidden>
+              <svg class="btn__icon" viewBox="0 0 16 16" width="15" height="15" aria-hidden="true">
+                <path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.4 7.4 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/>
+              </svg>
+              <span>GitHub</span>
+            </a>
+          </div>
+
+          <p class="hero__status" id="hero-status" hidden></p>
+        </div>
+
+        <!-- Чертёж -->
+        <div class="hero__visual" aria-hidden="true">
+          <svg class="blueprint" viewBox="0 0 600 460" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+                <path d="M40 0H0V40" stroke="rgba(244,244,240,0.05)" stroke-width="1"/>
+              </pattern>
+            </defs>
+
+            <rect width="600" height="460" fill="url(#grid)"/>
+
+            <!-- Общий каркас макета -->
+            <g stroke="rgba(244,244,240,0.38)" stroke-width="1">
+              <rect data-draw x="70.5" y="70.5" width="459" height="319"/>
+              <line data-draw x1="70.5" y1="120.5" x2="529.5" y2="120.5"/>
+              <rect data-draw x="96.5" y="150.5" width="200" height="16"/>
+              <rect data-draw x="96.5" y="184.5" width="140" height="16"/>
+              <rect data-draw x="360.5" y="150.5" width="145" height="108"/>
+              <line data-draw x1="96.5" y1="300.5" x2="505.5" y2="300.5"/>
+              <line data-draw x1="96.5" y1="324.5" x2="420.5" y2="324.5"/>
+            </g>
+
+            <!-- Акцентная кнопка -->
+            <rect data-draw x="96.5" y="228.5" width="110" height="34"
+                  fill="rgba(200,245,60,0.08)" stroke="#C8F53C" stroke-width="1"/>
+
+            <!-- Точки интерфейса -->
+            <circle cx="92" cy="96" r="4" fill="#C8F53C"/>
+            <circle cx="110" cy="96" r="4" fill="none" stroke="rgba(244,244,240,0.26)"/>
+            <circle cx="128" cy="96" r="4" fill="none" stroke="rgba(244,244,240,0.26)"/>
+
+            <!-- Размерная линия сверху -->
+            <g stroke="rgba(244,244,240,0.26)" stroke-width="1">
+              <line data-draw x1="70.5" y1="52.5" x2="529.5" y2="52.5"/>
+              <line data-draw x1="70.5" y1="46" x2="70.5" y2="59"/>
+              <line data-draw x1="529.5" y1="46" x2="529.5" y2="59"/>
+            </g>
+            <text class="bp-label" x="300" y="42" text-anchor="middle">12 COL · 1440</text>
+
+            <!-- Размерная линия слева -->
+            <g stroke="rgba(244,244,240,0.26)" stroke-width="1">
+              <line data-draw x1="52.5" y1="70.5" x2="52.5" y2="389.5"/>
+              <line data-draw x1="46" y1="70.5" x2="59" y2="70.5"/>
+              <line data-draw x1="46" y1="389.5" x2="59" y2="389.5"/>
+            </g>
+            <text class="bp-label" x="34" y="230" text-anchor="middle" transform="rotate(-90 34 230)">900</text>
+          </svg>
+
+          <p class="hero__fig">FIG. 01 — WIREFRAME / GRID 12 COL</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section" id="about" aria-labelledby="t-about">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="section__num">01</span>
+          <h2 class="section__title" id="t-about">Обо мне</h2>
+          <span class="section__rule" aria-hidden="true"></span>
+        </div>
+
+        <div class="about">
+          <dl class="about__facts reveal" id="about-facts"></dl>
+          <div class="about__text reveal" id="about-text"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section class="section" id="projects" aria-labelledby="t-projects">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="section__num">02</span>
+          <h2 class="section__title" id="t-projects">Проекты</h2>
+          <span class="section__rule" aria-hidden="true"></span>
+        </div>
+
+        <div class="projects" id="projects"></div>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section class="section" id="skills" aria-labelledby="t-skills">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="section__num">03</span>
+          <h2 class="section__title" id="t-skills">Навыки</h2>
+          <span class="section__rule" aria-hidden="true"></span>
+        </div>
+
+        <div class="skills" id="skills"></div>
+      </div>
+    </section>
+
+    <!-- ================= PROCESS ================= -->
+    <section class="section" id="process" aria-labelledby="t-process">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="section__num">04</span>
+          <h2 class="section__title" id="t-process">Процесс работы</h2>
+          <span class="section__rule" aria-hidden="true"></span>
+        </div>
+
+        <ol class="process" id="process-list"></ol>
+      </div>
+    </section>
+
+    <!-- ================= CONTACTS ================= -->
+    <section class="section" id="contacts" aria-labelledby="t-contacts">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="section__num">05</span>
+          <h2 class="section__title" id="t-contacts">Контакты</h2>
+          <span class="section__rule" aria-hidden="true"></span>
+        </div>
+
+        <div id="contacts"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__name" data-cfg="name">Даниил Мазуров</p>
+      <p class="footer__meta">© <span id="year">2025</span> · HTML · CSS · JavaScript</p>
+    </div>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
