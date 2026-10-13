@@ -86,11 +86,21 @@ window.CONFIG = {
       title: "Mellow Coffee",
       description:
         "Современный одностраничный сайт кофейни с тёплой цветовой " +
-        "палитрой, стильным меню напитков, адаптивной вёрсткой " +
+        "палитрой, меню напитков, адаптивной вёрсткой " +
         "и интерактивными элементами.",
       stack: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
       demo: "https://reto-444.github.io/mellow-Coffe/",
       code: "https://github.com/Reto-444/mellow-Coffe"
+    },
+    {
+      title: "Forma Studio",
+      description:
+        "Концептуальный сайт креативной дизайн-студии с выразительной " +
+        "типографикой, асимметричной композицией, презентацией проектов " +
+        "и плавными интерактивными эффектами.",
+      stack: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
+      demo: "https://reto-444.github.io/Forma-Studio/",
+      code: "https://github.com/Reto-444/Forma-Studio"
     }
   ],
 
